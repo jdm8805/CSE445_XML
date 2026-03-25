@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Incorrect root name -->
+<NationalPark>
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="FlagStaff">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Mesa Verde</Name>
+		<Phone>970-529-4465</Phone>
+		<!-- Missing required attribute "NearestAirport" -->
+		<Address>
+			<Number>34840</Number>
+			<Street>Hwy 160</Street>
+			<City>Mancos</City>
+			<State>CO</State>
+			<Zip>81328</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Dry Tortugas</Name>
+		<Phone>305-242-7700</Phone>
+		<Address NearestAirport="Southwest Florida">
+			<Number>40001</Number>
+			<Street>SR-9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>Denali</Name>
+		<Phone>907-638-9532</Phone>
+		<Phone>907-733-2231</Phone>
+		<Address NearestAirport="Ted Stevens Anchorage">
+			<Number>Mile 237</Number>
+			<Street>Highway 3</Street>
+			<City>Denali Park</City>
+			<State>AK</State>
+			<Zip>99755</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>Olympic</Name>
+		<!-- Missing element "Phone" -->
+		<Address NearestAirport="Seattle-Tacoma">
+			<Number>3002</Number>
+			<Street>Mount Angeles Road</Street>
+			<City>Port Angeles</City>
+			<State>WA</State>
+			<Zip>98362</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Joshua Tree</Name>
+		<Phone>760-367-5500</Phone>
+		<Address NearestAirport="Palm Springs">
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277-3597</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>Petrified Forest</Name>
+		<Phone>928-524-6228</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>Exit 311</Number>
+			<Street>Interstate 40</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>Yellowstone</Name>
+		<Phone>307-344-7381</Phone>
+		<Phone>307-344-2117</Phone>
+		<Phone>307-344-2751</Phone>
+		<Phone>307-344-2132</Phone>
+		<Address NearestAirport="Jackson Hole">
+			<Number>2</Number>
+			<Street>Officers Row</Street>
+			<City>Yellowstone National Park</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!-- Two names provided -->
+		<Name>Acadia</Name>
+		<Name>Acadia National Park</Name>
+		<Phone>207-288-3888</Phone>
+		<Address NearestAirport="Bangor">
+			<Number>25</Number>
+			<Street>Visitor Center Road</Street>
+			<City>Bar Harbor</City>
+			<State>ME</State>
+			<Zip>04609</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>Carlsbad Caverns</Name>
+		<Phone>575-785-2232</Phone>
+		<Phone>877-444-6777</Phone>
+		<Address NearestAirport="El Paso">
+			<Number>727</Number>
+			<Street>Carlsbad Caverns Highway</Street>
+			<City>Carlsbad</City>
+			<State>NM</State>
+			<Zip>88220</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<Name>Crater Lake</Name>
+		<Phone>541-594-3000</Phone>
+		<Address NearestAirport="Medford">
+			<Number>1</Number>
+			<Street>Sager Building</Street>
+			<City>Crater Lake</City>
+			<State>OR</State>
+			<Zip>97604</Zip>
+		<!-- No closing tag for "Address" -->
+	</NationalPark>
+	<NationalPark>
+		<Name>Arches</Name>
+		<Phone>435-719-2299</Phone>
+		<Address NearestAirport="Salt Lake City">
+			<Number>Mile 28</Number>
+			<Street>US 191</Street>
+			<City>Moab</City>
+			<State>UT</State>
+			<Zip>84532</Zip>
+		</Address>
+	</NationalPark>
+</NationalPark> 
