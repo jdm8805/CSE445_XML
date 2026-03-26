@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Incorrect root name -->
-<NationalPark>
+﻿<!-- Incorrect root name -->
+<NationalPark
+	xmlns="https://jdm8805.github.io/CSE445_XML/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jdm8805.github.io/CSE445_XML/ NationalParks.xsd">
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
