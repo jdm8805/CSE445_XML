@@ -2,8 +2,7 @@
 <NationalPark
 	xmlns="https://jdm8805.github.io/CSE445_XML/"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://jdm8805.github.io/CSE445_XML/ NationalParks.xsd"
-	targetNamespace="https://jdm8805.github.io/CSE445_XML/">
+	xsi:schemaLocation="https://jdm8805.github.io/CSE445_XML/ NationalParks.xsd">
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
@@ -133,8 +132,8 @@
 			<City>Crater Lake</City>
 			<State>OR</State>
 			<Zip>97604</Zip>
-		<!-- No closing tag for "Address" -->
-	</NationalPark>
+			<!-- No closing tag for "Address" -->
+		</NationalPark>
 	<NationalPark>
 		<Name>Arches</Name>
 		<Phone>435-719-2299</Phone>
